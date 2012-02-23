@@ -66,6 +66,17 @@ table {
   html[xmlns] .clearfix { display: block; }
   * html .clearfix { height: 1%; }
 
+@font-face {
+    font-family: 'JennaSueRegular';
+    src: url('JennaSue-webfont.eot');
+    src: url('JennaSue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('JennaSue-webfont.woff') format('woff'),
+         url('JennaSue-webfont.ttf') format('truetype'),
+         url('JennaSue-webfont.svg#JennaSueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -229,7 +240,7 @@ aside h1 {
 
 #logo a {
 	text-decoration: none;
-	font-family: JennaSue;
+	font-family: JennaSueRegular;
 	color: #F55C0A;
 	font-size: 6.5em;
 	text-shadow: 4px 4px 1px #DFDDCA;
