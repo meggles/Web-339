@@ -1,0 +1,200 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+*/
+
+
+
+
+/* positioning */
+
+html {
+	background: url(images/da-background-fpo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#footer, #push {
+	height: 40px; /* .push must be the same height as .footer */
+}
+
+#footer {
+	background-color: black;
+	padding: 0 0 0 45px;
+}
+
+#footer li {
+	float: left;
+	padding: 5px 5px 0 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+#site-header {
+	position: relative;
+}
+
+#logo img{
+	max-width: 90%;
+	padding: 10% 0% 0 5%;
+}
+
+#site-header h2 {
+	position: relative;
+	padding: 10% 0% 0 5%;
+}
+
+
+ul#navigation {
+	position: absolute;
+	margin: 0px;
+    padding: 0px;
+    top: 350px;
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+
+ul#navigation li {
+    width: 100px;
+    padding: 5px 0;
+}
+
+ul#navigation li a {
+    padding: 10px 5px 0px 50px;
+}
+
+#schedule a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(244, 39, 117, 100);
+}
+
+#event-booking a {
+    display: block;
+    width: 215px;
+    height: 30px;
+    background-color:rgba(88, 238, 93, 100);
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#blog a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color:rgba(230, 255, 47, 100);
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#about a {
+    display: block;
+    width: 130px;
+    height: 30px;
+    background-color:rgba(89, 201, 230, 100);
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+
+/* style */
+
+#site-header h2 {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-style: italic;	
+	font-size: 1.5em;
+}
+
+ul#navigation li a {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
