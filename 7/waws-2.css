@@ -121,10 +121,32 @@ html {
 	top: 155px;
 }
 
-#social-media li {
+#sm-icon1 {
+	height: 35px;
+	width: 35px;
 	padding: 4px 0;
+	background: url(images/facebook-icon-green.png) no-repeat;
+	z-index: 99999;
+	display: block;
+	text-indent: -9999;
 }
 
+#sm-icon2 {
+	height: 35px;
+	width: 35px;	
+	padding: 4px 0;
+	background: url(images/twitter-icon-green.png) no-repeat;
+	z-index: 99999;	
+	text-indent: -9999px;
+}
+
+#sm-icon2 :hover {
+	height: 35px;
+	width: 35px;	
+	padding: 4px 0;
+	background: url(images/twitter-icon-purple.png) no-repeat;
+	z-index: 99999px;
+}
 
 #header h1 {
 	font-family: 'Londrina Outline', serif;

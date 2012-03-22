@@ -69,17 +69,6 @@ table {
   * html .clearfix { height: 1%; }
 */
 
-@font-face {
-    font-family: 'DaysRegular';
-    src: url('Days-webfont.eot');
-    src: url('Days-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Days-webfont.woff') format('woff'),
-         url('Days-webfont.ttf') format('truetype'),
-         url('Days-webfont.svg#DaysRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 
 @-webkit-keyframes nav-grow1 {
@@ -146,25 +135,19 @@ table {
 	100% { width: 130px; }
 }
 
-
-
-#site-header h2 {
-	font-family: 'DaysRegular', Arial, sans-serif;
-	font-style: italic;	
-	font-size: 1.5em;
-}
-
+/*
 ul#navigation li a {
-	font-family: 'DaysRegular', Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 1.125em;
 	text-transform: uppercase;
 	font-style: italic;	
 	text-decoration: none;
 	color: black;
 }
+*/
 
 .wrapper {
-	background: url(images/DA-Home.jpg) no-repeat center top fixed;
+	background: url(images/retro_3417.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -187,11 +170,44 @@ ul#navigation li a {
 */
 
 #logo img{
-	max-width: 85%;
+	max-width: 75%;
 	height: auto;
-	padding: 5em 0 0 3em;
+	padding: 4em 0 0 3em;
 	margin: 0 1em 0 0;
 }
+
+#section-wrapper {
+	width: 570px;
+	max-width: 75%;
+	position: relative;
+	left: 50px;
+	top: 75px;
+}
+
+#article-1 p {
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 10px 0 0 0;
+}
+
+p a {
+	font-weight: bold;
+	color:black;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p a:hover {
+	font-weight: bold;
+	color: #ED0B9A;
+	text-decoration: none;
+}
+
 
 /*
 #site-header {
@@ -199,18 +215,12 @@ ul#navigation li a {
 	top: 100px;
 	left: 50px;
 }
-*/
-
-#site-header {
-
-}
 	
 #site-header h2 {
 	float: left;
 	padding: 1em 0 0 2em;
 }
 
-/*
 ul#navigation li:hover {
     opacity: 0.6;
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
@@ -313,18 +323,22 @@ html, body {
 	margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
 }
 
+#push {
+	position: relative;
+}
+
 #footer, #push {
 	height: 40px; /* .push must be the same height as .footer */
 }
 
 #footer {
+	position: relative;
 	background-color: black;
-	padding: 0 0 0 45px;
+	padding: 0 0 0 50px;
 }
 
 #footer li {
 	float: left;
-	padding: 5px 5px 0 10px;
 }
 
 /*
