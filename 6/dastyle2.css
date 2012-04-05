@@ -1,0 +1,341 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+*/
+
+
+
+@-webkit-keyframes nav-grow1 {
+	0%   { width: 150px; }
+	50% { width: 180px; }
+	100% { width: 150px; }
+}
+@-moz-keyframes nav-grow1 {
+	0%   { width: 150px; }
+	50% { width: 180px; }
+	100% { width: 150px; }
+}
+@-ms-keyframes nav-grow1 {
+	0%   { width: 150px; }
+	50% { width: 180px; }
+	100% { width: 150px; }
+}
+
+@-webkit-keyframes nav-grow2 {
+	0%   { width: 215px; }
+	50% { width: 240px; }
+	100% { width: 215px; }
+}
+@-moz-keyframes nav-grow2 {
+	0%   { width: 215px; }
+	50% { width: 240px; }
+	100% { width: 215px; }
+}
+@-ms-keyframes nav-grow2 {
+	0%   { width: 215px; }
+	50% { width: 240px; }
+	100% { width: 215px; }
+}
+
+@-webkit-keyframes nav-grow3 {
+	0%   { width: 100px; }
+	50% { width: 130px; }
+	100% { width: 100px; }
+}
+@-moz-keyframes nav-grow3 {
+	0%   { width: 100px; }
+	50% { width: 130px; }
+	100% { width: 100px; }
+}
+@-ms-keyframes nav-grow3 {
+	0%   { width: 100px; }
+	50% { width: 130px; }
+	100% { width: 100px; }
+}
+
+@-webkit-keyframes nav-grow4 {
+	0%   { width: 130px; }
+	50% { width: 160px; }
+	100% { width: 130px; }
+}
+@-moz-keyframes nav-grow4 {
+	0%   { width: 130px; }
+	50% { width: 160px; }
+	100% { width: 130px; }
+}
+@-ms-keyframes nav-grow4 {
+	0%   { width: 130px; }
+	50% { width: 160px; }
+	100% { width: 130px; }
+}
+
+
+ul#navigation li a {
+	font-family: "Museo-500", Arial, sans-serif;
+	font-size: 1.125em;
+	text-decoration: none;
+	color: black;
+}
+
+
+.wrapper {
+	background: url(images/retro_3417.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+/*
+#logo {
+	width: 1180px;
+	height: 122px;
+	background: url(images/da-logo.png) no-repeat;
+	text-indent: -9999px;
+}
+*/
+
+#logo img{
+	max-width: 75%;
+	height: auto;
+}
+
+#section-wrapper {
+	width: 570px;
+	max-width: 75%;
+	position: relative;
+	left: 50px;
+	top: 75px;
+}
+
+#article-1 p {
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 10px 0 0 0;
+}
+
+p a {
+	font-weight: bold;
+	color:black;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p a:hover {
+	font-weight: bold;
+	color: #ED0B9A;
+	text-decoration: none;
+}
+
+#site-header {
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+	
+#site-header h2 {
+	float: left;
+	padding: 1em 0 0 2em;
+}
+
+ul#navigation li:hover {
+    opacity: 0.6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+}
+
+#main-nav {
+	float: left;
+	padding: 12% 0 0 0;
+}
+
+ul#navigation {
+	float: left;
+    list-style: none;
+    z-index:9999;
+}
+
+ul#navigation li {
+    width: 5em;
+    height: auto;
+    padding: .25em 0;
+}
+
+ul#navigation li a {
+    padding: .375em 0 .125em 3em;
+}
+
+#schedule a {
+    display: block;
+    width: 150px;
+    height: 25px;
+    background-color: rgba(247, 62, 132, 100);
+}
+
+#schedule a:hover {
+	-webkit-animation: nav-grow1 .75s;
+    -moz-animation:    nav-grow1 .75s;
+    -ms-animation:     nav-grow1 .75s;
+     -webkit-animation-timing-function: ease-out;
+}
+
+
+#event-booking a {
+    display: block;
+    width: 215px;
+    height: 25px;
+    background-color:rgba(88, 238, 93, 100);
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#event-booking a:hover {
+	-webkit-animation: nav-grow2 .75s;
+    -moz-animation:    nav-grow2 .75s;
+    -ms-animation:     nav-grow2 .75s;
+}
+
+#blog a {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color:rgba(230, 255, 47, 100);
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#blog a:hover {
+	-webkit-animation: nav-grow3 .75s;
+    -moz-animation:    nav-grow3 .75s;
+    -ms-animation:     nav-grow3 .75s;
+}
+
+#about a {
+    display: block;
+    width: 130px;
+    height: 25px;
+    background-color:rgba(89, 201, 230, 100);S
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#about a:hover {
+	-webkit-animation: nav-grow4 .75s;
+    -moz-animation:    nav-grow4 .75s;
+    -ms-animation:     nav-grow4 .75s;   
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#push {
+	position: relative;
+}
+
+#footer, #push {
+	height: 40px; /* .push must be the same height as .footer */
+}
+
+#footer {
+	position: relative;
+	background-color: black;
+	padding: 0 0 0 50px;
+}
+
+#footer li {
+	float: left;
+}
+
+/*
+for the navigation animation:
+ADD A SPAN THAT GROWS instead of changing the size of each bar
+
+UL#NAVIATION LI SPAN {DISPLAY:block; make it grow to 50px*/
