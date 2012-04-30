@@ -135,16 +135,16 @@ table {
 	100% { width: 130px; }
 }
 
-/*
+
 ul#navigation li a {
-	font-family: Arial, sans-serif;
+	font-family: 'Museo', sans-serif;
 	font-size: 1.125em;
 	text-transform: uppercase;
-	font-style: italic;	
+	font-weight: 700;	
 	text-decoration: none;
 	color: black;
 }
-*/
+
 
 .wrapper {
 	background: url(images/retro_3417.jpg) no-repeat center top fixed;
